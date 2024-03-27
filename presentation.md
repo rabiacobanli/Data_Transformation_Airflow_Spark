@@ -6,7 +6,8 @@ There are two different datasets in this zip file.
 - tmdb_5000_credits.csv
 - tmdb_5000_movies.csv
 ## Architecture
-![](images/architecture.png)
+![architecture](https://github.com/rabiacobanli/Data_Transformation_Airflow_Spark/assets/107354116/6c7d14ea-21d1-4ff8-87fa-6596573f669d)
+
 -----
 ## Project Steps
 
@@ -31,7 +32,8 @@ pip install boto3
 ```markdown
 jupyter lab --ip 0.0.0.0 --port 8888 --allow-root
 ```
-![](images/img.png)
+![img](https://github.com/rabiacobanli/Data_Transformation_Airflow_Spark/assets/107354116/96a50747-9463-4893-9dab-25bf34edc44d)
+
 
 
 ```
@@ -68,11 +70,13 @@ wget https://repo1.maven.org/maven2/io/delta/delta-storage/2.4.0/delta-storage-2
 mv delta-storage-2.4.0.jar opt/spark/jars/
 ```
 
+![img_1](https://github.com/rabiacobanli/Data_Transformation_Airflow_Spark/assets/107354116/cd5282fc-0738-4395-b439-6559056a39b1)
 
-![](images/img_1.png)
+
+![img_2](https://github.com/rabiacobanli/Data_Transformation_Airflow_Spark/assets/107354116/278e1b7b-f935-4e9c-a1da-e3b46340958f)
 
 
-![](images/img_2.png)
+
 ```
 python dataframe_to_s3.py -buc tmdb-bronze \
 -k credits/credits_part \
