@@ -18,7 +18,8 @@ This or similar analytics are not possible in the raw form of the data. By proce
 
 # Architecture
 ![](images/architecture.png)
-![](images/img.png)
+![](images/img.png)![architecture](https://github.com/rabiacobanli/Data_Transformation_Airflow_Spark/assets/107354116/6d42893d-be40-4309-8dcf-0290def02628)
+
 -----
 
 # 1. Data Ingestion
