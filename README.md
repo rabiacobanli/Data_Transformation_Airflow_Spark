@@ -1,4 +1,4 @@
-# VBO Data Engineering Bootcamp Final Project-4: Airflow/Delta Lake
+# VBO Data Engineering Final Project Airflow/Delta Lake
 
 - Use this dataset: https://github.com/erkansirin78/datasets/raw/master/tmdb_5000_movies_and_credits.zip
 
